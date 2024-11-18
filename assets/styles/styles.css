@@ -1,0 +1,130 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header styling */
+.header {
+    background-color: #4a90e2;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile section styling */
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.job-title {
+    color: #777;
+}
+
+/* Content section styling */
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.story, .personal-info {
+    width: 45%;
+    min-width: 250px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.story p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.personal-info ul {
+    list-style-type: none;
+}
+
+.personal-info li {
+    margin-bottom: 8px;
+}
+
+.personal-info span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Logo Kampus styling */
+.logo-kampus {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+    display: block;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
